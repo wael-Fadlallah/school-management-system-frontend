@@ -7,11 +7,11 @@ import { Container } from "@mui/material";
 export default function Layout(): JSX.Element {
   return (
     <>
+      <Header />
       <Container>
-        <Header />
         <Outlet />
-        <Footer />
       </Container>
+      <Footer />
     </>
   );
 }
